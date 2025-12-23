@@ -121,18 +121,10 @@ const Cart = () => {
           <div className="bg-white rounded-xl shadow-lg p-6 mb-8">
             <h2 className="text-2xl font-bold text-gray-800 mb-6">Order Summary</h2>
             <div className="space-y-4 mb-6">
-              <div className="flex justify-between items-center">
-                <span className="text-gray-600">Subtotal ({cart.length} items)</span>
-                <span className="font-bold">${totalPrice}</span>
-              </div>
-              <div className="flex justify-between items-center">
-                <span className="text-gray-600">Tax</span>
-                <span className="font-bold">${(totalPrice * 0.15).toFixed(2)}</span>
-              </div>
               <div className="flex justify-between items-center border-t pt-4">
                 <span className="text-xl font-bold text-gray-800">Total</span>
                 <span className="text-2xl font-bold text-blue-600">
-                  ${(totalPrice * 1.15).toFixed(2)}
+                  ${totalPrice}
                 </span>
               </div>
             </div>
@@ -145,7 +137,7 @@ const Cart = () => {
                 Continue Shopping
               </Link>
               <button
-                onClick={() => alert('Checkout functionality is not implemented in this demo.')}
+                onClick={() => alert('Check done! good luck ❤')}
                 className="px-8 py-3 bg-green-600 hover:bg-green-700 text-white rounded-lg font-bold transition flex items-center"
               >
                 Proceed to Checkout
