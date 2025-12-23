@@ -137,12 +137,6 @@ const Cart = () => {
               </div>
             </div>
 
-            <div className="bg-blue-50 p-4 rounded-lg mb-6">
-              <p className="text-blue-700 text-sm">
-                <span className="font-bold">Note:</span> This is a demo project. Checkout functionality is not implemented.
-              </p>
-            </div>
-
             <div className="flex justify-between">
               <Link
                 to="/courses"
