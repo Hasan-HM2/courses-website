@@ -16,7 +16,7 @@ const Layout = ({ children }) => {
               <p className="text-gray-400 mt-2">Your learning journey starts here</p>
             </div>
             <div className="text-center md:text-right">
-              <p className="text-gray-300">© 2024 CourseHub. All rights reserved.</p>
+              <p className="text-gray-300">© 2025 CourseHub. All rights reserved.</p>
               <p className="text-gray-400 mt-1">The leading e-learning platform in the Arab world</p>
             </div>
           </div>
